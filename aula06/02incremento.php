@@ -9,7 +9,7 @@
 <body>
     <?php
     $atual = $_GET["aa"];
-    echo "o Ano atual é $atual e o ano anterior é " . --$atual;
+    echo "o Ano atual é $atual";
 
 
 
