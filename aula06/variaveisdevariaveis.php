@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decremento</title>
+    <title>variaveis de variaveis</title>
     <style>
     body {
             background-color: aqua;
@@ -34,25 +34,36 @@
     </style>
 </head>
 <body>
+    <h1>Variaveis de variaveis</h1>
 
     <div>
-    <?php
-    $atual = $_GET["aa"]; // Pega o ano da URL
-    echo "o Ano atual é $atual e o ano anterior é " . --$atual; // vai imprimir a mensagem. 
+        <?php 
+
+        $x = "abc";
+        $$x = "def";
+
+        echo "O conteudo da variavel x é $x";
+
+        echo "<br> A variavel abc criada recebeu o valor $abc";
+        
 
 
 
-     
+
+
+
+
+
+       ?>
 
 
 
 
 
 
-?>
 
-</div>
 
+    </div>
 
 
 

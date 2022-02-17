@@ -16,6 +16,7 @@
             width:600px;
             height:600px;
             background-color: darkgray;
+            border-radius: 20px;
             margin:auto;
         
             
