@@ -18,8 +18,7 @@
          if($i < 16) {
              $tipovoto = "Não vota";
          }
-         else {
-             if (($i >= 16 && $i < 18) || ($i >=65)) {
+         elseif (($i >= 16 && $i < 18) || ($i >=65)) {
                  $tipovoto = "Voto opcional";
              } 
              else {
@@ -29,7 +28,7 @@
 
 
 
-         }
+         
 
          echo "Para essa idade $tipovoto" ;
 
