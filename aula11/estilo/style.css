@@ -1,0 +1,17 @@
+h1 {
+    background-color: gray;
+    color:white;
+    text-align: center;
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.782);
+    padding:10px;
+    color:white;
+    cursor: pointer;
+}
